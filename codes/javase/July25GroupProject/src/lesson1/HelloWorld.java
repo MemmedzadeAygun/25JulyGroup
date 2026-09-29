@@ -1,5 +1,7 @@
 package lesson1;
 
+import java.util.Scanner;
+
 public class HelloWorld {
 	public static void main(String[] args) {
 //		System.out.println("Salam Dunya");
@@ -12,7 +14,7 @@ public class HelloWorld {
 		
 		byte number = 127;
 		short number2 = 1234;
-		int number3 = 3456;
+		int number3 = 345663467;
 		long number4 = 10000000000L;
 		
 		double height = 123.56;
@@ -28,5 +30,6 @@ public class HelloWorld {
 		System.out.println(yalnis);
 		System.out.println(symbol);
 		System.out.println(number);
+		
 	}
 }
