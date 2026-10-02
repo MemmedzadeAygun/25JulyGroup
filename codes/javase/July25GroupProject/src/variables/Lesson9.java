@@ -44,12 +44,24 @@ public class Lesson9 {
 //		boolean isActive = !false;
 //		System.out.println(isActive);
 		
-		int a = 5;
-		int b = --a * a + a++ + a; //25
-		System.out.println(b); //15, 30, 31, 32
+//		int a = 5;
+//		int b = --a * a + a++ + a; //25
+//		System.out.println(b); //15, 30, 31, 32
+//		
+//		
+//		char ch = 's';
 		
-		
-		char ch = 's';
+		int a = 10;
+		int b = 4;
+
+		int c = a++ - --b; //10 - 3 = 7
+		a += ++b; // a = a + ++b = 11 + 4 = 15 a = 15 b= 4
+		b = a % b; //b = 15 % 4 = 3 qaliq
+		c *= a--; // c = c * a-- = 7 * 15 = 105
+
+		System.out.println(a); // 14
+		System.out.println(b); // 3
+		System.out.println(c); // 105
 	}
 
 }
