@@ -24,8 +24,8 @@ public class Lesson10 {
 //		System.out.println(num1 > 10 || num2 < 50); //true || true = true
 //		System.out.println(num1 > 10 || num2 > 50); //true || false = true
 //		System.out.println(num1 < 10 || num2 < 50); //false || true = true
-		System.out.println(num1 < 10 || num2 > 50); //false || false = false
-		System.out.println(num1 < 10 || !(num2 > 50)); //false || true = true
+//		System.out.println(num1 < 10 || num2 > 50); //false || false = false
+//		System.out.println(num1 < 10 || !(num2 > 50)); //false || true = true
 		
 //		System.out.println(num1 > num2);
 //		System.out.println(num1 < num2);
