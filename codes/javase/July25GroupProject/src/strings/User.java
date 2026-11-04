@@ -124,7 +124,7 @@ public class User {
 //		System.out.println(s1.equals(s3));
 //		System.out.println(s1 == s4);
 		
-		String sentence = "Mən Java Öyrənirəm Və Java İlə Layihələr Hazırlayıram. Java Öyərnmək Mənim Xoşuma Gəlir";
+//		String sentence = "Mən Java Öyrənirəm Və Java İlə Layihələr Hazırlayıram. Java Öyərnmək Mənim Xoşuma Gəlir";
 //        String searchWord = "Java";
 //        
 //        int count = 0;
@@ -137,16 +137,19 @@ public class User {
 //        
 //        System.out.println("In This sentence '" + searchWord + "' count: " + count);
 		
-		int count = 0;
-        
-        for (int i = 0; i < sentence.length(); i++) {
-//			System.out.println(sentence.indexOf("Java", i) == i);
-        	if (sentence.indexOf("Java", i) == i) {
-        		count++;
-			}
-		}
-        
-        System.out.println(count);
+//		int count = 0;
+//        
+//        for (int i = 0; i < sentence.length(); i++) {
+////			System.out.println(sentence.indexOf("Java", i) == i);
+//        	if (sentence.indexOf("Java", i) == i) {
+//        		count++;
+//			}
+//		}
+//        
+//        System.out.println(count);
 		
+	
+		String str = "Ali Qedimov124";
+//		str.split("1"); [Ali Qedimov, 24]
 	}
 }
