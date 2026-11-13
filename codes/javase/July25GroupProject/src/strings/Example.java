@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Example {
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Istifadcei adinizi daxil edin: ");
-		String username = sc.nextLine();
-		
-		System.out.println("sevdiyi proqramlaşdırma dilini daxil edin: ");
-		String prlang = sc.nextLine();
-		
-		System.out.println("User " + username + " deyir: \n Menim sevdiyim dil " + prlang);
-		System.out.println("Bu dili öyrənmək üçün yazıram: " + " C:\\Users\\Ali\\Documents\\" + prlang +  "\\code.java");
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Istifadcei adinizi daxil edin: ");
+//		String username = sc.nextLine();
+//		
+//		System.out.println("sevdiyi proqramlaşdırma dilini daxil edin: ");
+//		String prlang = sc.nextLine();
+//		
+//		System.out.println("User " + username + " deyir: \n Menim sevdiyim dil " + prlang);
+//		System.out.println("Bu dili öyrənmək üçün yazıram: " + " C:\\Users\\Ali\\Documents\\" + prlang +  "\\code.java");
 		
 		
 //		System.out.println("Salam \nDunya!");
@@ -54,5 +54,13 @@ public class Example {
 //		System.out.printf("%05d", 123); //00123
 //		System.out.printf("%05d", 1234); //01234
 //		System.out.printf("%05d", 12345); //12345
+		
+//		String s = "\"Java";
+//		
+//		System.out.println(s);
+		
+		
+		
+		
 	}
 }
