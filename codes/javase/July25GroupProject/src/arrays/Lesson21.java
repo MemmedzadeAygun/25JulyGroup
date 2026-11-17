@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class Lesson21 {
 	public static void main(String[] args) {
 		int[] arr1 = { 12, 13, 23, 4, 6 };
@@ -75,9 +77,6 @@ public class Lesson21 {
 //		
 //		System.out.println(max);
 		
-		
-		
-		
-		
+
 	}
 }
